@@ -8,7 +8,7 @@ function submitContactForm(e) {
     let phone = document.querySelector('input[name="phone"]').value;
     let message = document.querySelector('textarea[name="message"]').value;
 
-    fetch('https://script.google.com/a/macros/rguktn.ac.in/s/AKfycbzYW7gCm90o5XRM3RXE5xjInkQBr3thYkfabZbYViZG-L5cjoPt7_WcvwOzvNKrnGy02w/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbxy8fF81B7wpg1dE8YKu_DBL19pKC5_ls05FHGDvE_AM9y_C2AylQVhkUrjhnI8Yd2I5A/exec', {
         method: 'POST',
         mode: 'no-cors',
         cache: 'no-cache',
